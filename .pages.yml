@@ -1,12 +1,3 @@
-media:
-  - name: images
-    label: Images
-    input: images
-    output: images
-    rename: safe
-    categories:
-      - image
-
 content:
   - name: reviews
     label: Food diary
@@ -49,12 +40,10 @@ content:
         label: Extra story (optional)
         type: text
       - name: image
-        label: Food photo
-        type: image
+        label: Food photo URL or path
+        type: string
         required: true
-        options:
-          media: images
-          path: images
+        description: Paste a direct, publicly accessible image URL, or use a path to an image already in this repository (for example, images/cafe-niloufer-chai.png).
       - name: imageAlt
         label: Image description
         type: string
