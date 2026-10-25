@@ -2,7 +2,9 @@
   {
     "place": "Café Niloufer",
     "location": "Lakdikapul, Hyderabad",
-    "categories": ["chai"],
+    "categories": [
+      "chai"
+    ],
     "dish": "Irani chai & Osmania biscuits",
     "review": "That first cup never seemed to be the last. The Osmania biscuit was part of the plan; staying for hours wasn’t.",
     "story": "We’d go in for a cup of chai, thinking we’d leave soon. Since it was a nice place to sit, we’d end up staying for hours, talking and pulling each other’s leg.",
@@ -12,17 +14,21 @@
   {
     "place": "Pista House",
     "location": "Hyderabad",
-    "categories": ["chai"],
+    "categories": [
+      "chai"
+    ],
     "dish": "Chai",
     "review": "Sweeter than Niloufer’s, and its flavour lingers long after the cup is empty. I like this one even more.",
     "story": "I like Niloufer’s chai, but I like this one even more. It’s sweeter, and I can still taste it long after the cup is finished.",
-    "image": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=900&q=80",
+    "image": "https://forumstatic.oneplusmobile.com/opforum-gl/upload/image/app/thread/20231228/6331398088232454801/1496157011916619783/1496157011916619783.jpeg",
     "imageAlt": "A cup of chai"
   },
   {
     "place": "Biryani Mehfil",
     "location": "Hyderabad",
-    "categories": ["biryani"],
+    "categories": [
+      "biryani"
+    ],
     "dish": "Chicken biryani",
     "review": "Quick, hot, and dependable. When I’m hungry and want a proper plate of chicken biryani without overthinking it, Mehfil is the easy call.",
     "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=900&q=80",
@@ -31,7 +37,9 @@
   {
     "place": "Angara",
     "location": "Hyderabad",
-    "categories": ["biryani"],
+    "categories": [
+      "biryani"
+    ],
     "dish": "Chicken biryani",
     "review": "Same chicken-and-rice comfort, but with a much bigger kick and a flavour of its own. I go for it when regular dum biryani feels too mild.",
     "image": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=900&q=80",
@@ -40,7 +48,9 @@
   {
     "place": "The Mathrusree Nagar Bandi",
     "location": "Mathrusree Nagar",
-    "categories": ["chaat"],
+    "categories": [
+      "chaat"
+    ],
     "dish": "Chaat",
     "review": "Chaat from the Mathrusree Nagar bandi: crunchy, tangy, spicy, and hard to stop picking at. One of my Hyderabad favourites.",
     "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80",
@@ -49,7 +59,9 @@
   {
     "place": "Chitoor Naidu",
     "location": "Hyderabad",
-    "categories": ["rice"],
+    "categories": [
+      "rice"
+    ],
     "dish": "Fried rice",
     "review": "The fried rice I keep going back to—hot, savoury, and properly filling. Sometimes that’s all I need from dinner.",
     "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=900&q=80",
@@ -58,7 +70,9 @@
   {
     "place": "Baskin Robbins",
     "location": "Hyderabad",
-    "categories": ["sweet"],
+    "categories": [
+      "sweet"
+    ],
     "dish": "Mint chocolate chip ice cream",
     "review": "Cool mint with little chocolate chips in every spoonful. Exactly the scoop I want when I’m in the mood for something cold and sweet.",
     "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=900&q=80",
@@ -67,7 +81,10 @@
   {
     "place": "Carlo Drive In",
     "location": "Hyderabad",
-    "categories": ["snacks", "rice"],
+    "categories": [
+      "snacks",
+      "rice"
+    ],
     "dish": "Chitti bonda & prawn upma",
     "review": "A few little chitti bondas, then prawn upma when a snack clearly isn’t enough. Two different cravings, sorted in one stop.",
     "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80",
@@ -76,7 +93,9 @@
   {
     "place": "One Drive In",
     "location": "Hyderabad",
-    "categories": ["rice"],
+    "categories": [
+      "rice"
+    ],
     "dish": "Prawns pulao",
     "review": "Fragrant, spiced rice with prawns tucked through the plate. Prawn pulao is the order I remember from One Drive In.",
     "image": "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=900&q=80",
@@ -85,7 +104,9 @@
   {
     "place": "Rameshwaram Cafe",
     "location": "Hyderabad",
-    "categories": ["tiffin"],
+    "categories": [
+      "tiffin"
+    ],
     "dish": "Ponganalu",
     "review": "Golden-edged, soft-centred ponganalu cooked with ghee and served with chutney. A little South Indian tiffin plate I’m glad I tried.",
     "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=900&q=80",
@@ -94,7 +115,9 @@
   {
     "place": "Organic Creamery",
     "location": "Hyderabad",
-    "categories": ["sweet"],
+    "categories": [
+      "sweet"
+    ],
     "dish": "Death by Chocolate",
     "review": "Brownie, vanilla ice cream, chocolate fudge, and crunchy nuts all piled into one bowl. Definitely not a subtle chocolate dessert.",
     "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80",
