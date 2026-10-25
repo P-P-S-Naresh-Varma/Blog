@@ -1,0 +1,78 @@
+media:
+  - name: images
+    label: Images
+    input: images
+    output: images
+    rename: safe
+    categories:
+      - image
+
+content:
+  - name: reviews
+    label: Food diary
+    type: file
+    path: data/reviews.json
+    format: json
+    list: true
+    fields:
+      - name: place
+        label: Place
+        type: string
+        required: true
+      - name: location
+        label: Area
+        type: string
+        required: true
+        description: For example, Lakdikapul, Hyderabad.
+      - name: categories
+        label: Filters
+        type: select
+        options:
+          multiple: true
+          values:
+            - chai
+            - sweet
+            - biryani
+            - chaat
+            - rice
+            - tiffin
+            - snacks
+      - name: dish
+        label: What I had
+        type: string
+        required: true
+      - name: review
+        label: Short note
+        type: text
+        required: true
+      - name: story
+        label: Extra story (optional)
+        type: text
+      - name: image
+        label: Food photo
+        type: image
+        required: true
+        options:
+          media: images
+          path: images
+      - name: imageAlt
+        label: Image description
+        type: string
+        required: true
+        description: Briefly describe what appears in the image.
+    view:
+      primary: place
+      fields:
+        - place
+        - dish
+        - location
+    commit:
+      identity: user
+
+settings:
+  commit:
+    identity: user
+    templates:
+      create: "Add food note: {name}"
+      update: "Update food note: {name}"
+      delete: "Remove food note: {name}"
